@@ -1,0 +1,295 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.Menu-conteiner {
+	position: fixed;
+	width: 100%;
+
+}
+
+.Menu-list {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+
+}
+
+.menu-item {
+	display: flex;
+	font-family: SourceSansPro-Regular;
+	font-size: 0.94em;
+	color: #00416d;
+	line-height: 0.8em;
+	letter-spacing: 0em;
+	background-color: #ffffff;
+	border-radius: 25px;
+	width: 12vw;
+    height: 4vh;
+	align-items: center;
+	justify-content: center;
+	border: solid #00416d 2px;
+    align-items: space-between;
+    margin: 15px;
+
+}
+
+
+.home {
+	background-image: url('pencil-1819063_1920.jpg');
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.div-home{
+	display: flex;
+}
+
+.ttl-Projeto {
+	font-family: PTMono-Bold;
+    font-size: 120px;
+    color: #ffffff;
+    font-style: normal;
+    text-align: left;
+    line-height: 115px;
+    letter-spacing: 0em;
+    display: flex;
+    width: 50vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.professor {
+	font-family: PTMono-Bold;
+	font-size: 45px;
+	color: #ffffff;
+	font-style: normal;
+	text-align: right;
+	line-height: 4.14em;
+	letter-spacing: 0em;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 65vh;
+	width: 30vw;
+	text-shadow: 4px 2px #000000;
+}
+
+.conteiner-sobre{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+hr{
+	background-color: #808080;
+	opacity: 0.5;
+	padding: 1px;
+
+}
+
+.div-conteiner1{
+	display: flex;
+	height: 60%;
+	width: 100%;
+	
+
+}
+
+.div-sobre{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+}
+
+.txt-sobre {
+	font-family: 'SourceSansPro-Bold';
+    font-size: 1.88em;
+    color: #1f4ecc;
+    font-style: normal;
+    text-align: left;
+    line-height: -0.
+    letter-spacing: 0,61em;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left:15%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.txt-sobre2 {
+	font-family: 'SourceSansPro-Regular';
+    font-size: 1.25em;
+    color: #1f4ecc;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.07em;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.div-conteiner2{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.ttl-ação-1{
+	font-family: 'SourceSansPro-Bold';
+	font-size: 20px;
+	color:#1f4ecc;
+	font-style: normal;
+	text-align:  right;
+	line-height: 35px;
+	letter-spacing: 0em;
+	width: 10%;
+}
+
+.ttl-ação {
+	font-family: 'SourceSansPro-Bold';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	color:#1f4ecc;
+	font-style: normal;
+	text-align:  left;
+	line-height: 22px;
+	letter-spacing: 0em;
+	width: 9vw;	
+}
+
+.ttl-açãoo{
+	font-family: 'SourceSansPro-Bold';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 22px;
+	color:#1f4ecc;
+	font-style: normal;
+	text-align:  left;
+	line-height: 22px;
+	letter-spacing: 0em;
+	width: 9vw;
+}
+
+.div-ação{
+	width: 80%;
+    height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.div-caixa{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    height: 110%;
+    width: 30%;
+    border: solid;
+    border-radius: 30px;
+    border-color: red;
+
+
+}
+
+.txt-ação{
+	font-family: 'SourceSansPro-Bold';
+	color: #1f4ecc;
+	font-style: normal;
+	font-size: 11px;
+	margin: 20px;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+}
+
+.txt-açãoo{
+	font-family: 'SourceSansPro-Bold';
+	color: #1f4ecc;
+	font-style: normal;
+	font-size: 10px;
+	margin: 20px;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+
+}
+
+
+.conteiner-contato {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-image: url('pencil-918449_1920.jpg');
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.div-contato{
+	height: 30%;
+    width: 30%;
+    opacity: 0.5;
+    background-color: #000000;
+    border-radius: 25px;
+    line-height: 10px;
+    position: relative;
+    right: 2vw;
+}
+
+.ttl-contato {
+	font-family: SourceSansPro-Bold;
+	color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+	font-style: normal;
+	text-align: left;
+	line-height: 30px;
+	letter-spacing: 0em;
+	height: 25px;
+	font-weight: 900;
+	
+}
+
+.txt-contato {
+	font-family: SourceSansPro-Regular;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: normal;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
