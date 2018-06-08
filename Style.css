@@ -37,6 +37,15 @@ body{
 
 }
 
+@media screen and (max-width: 450px){
+	.menu-list{
+
+	}
+	.menu-item{
+
+	}
+}
+
 
 .home {
 	background-image: url('pencil-1819063_1920.jpg');
@@ -82,6 +91,36 @@ body{
 	height: 65vh;
 	width: 30vw;
 	text-shadow: 4px 2px #000000;
+}
+
+@media screen and (max-width: 450px){
+	.div-home{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    height: 100%;
+	}
+	.ttl-Projeto{
+		width: 100%;
+	    height: 100%;
+	    font-size: 180px;
+	    line-height: 140px;
+	    margin: auto;
+	    justify-content: center;
+	    align-items: flex-end;
+
+	}
+	.professor{
+		width: 100%;
+	    height: 100%;
+	    font-size: 133px;
+	    margin: 0px;
+	    display: flex;
+	    align-items: flex-start;
+	}
+
+
 }
 
 .conteiner-sobre{
@@ -143,6 +182,27 @@ hr{
     display: flex;
     justify-content: flex-end;
   
+}
+
+@media screen and (max-width: 450px){
+	.div-conteiner1{
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    height: 100%;
+	    width: 100%;
+	}
+	.div-sobre{
+
+	}
+	.txt-sobre {
+
+	}
+	.txt-sobre2{
+
+	}
+
+
 }
 
 .div-conteiner2{
@@ -242,6 +302,34 @@ hr{
 
 }
 
+@media screen and (max-width: 450px){
+	.div-conteiner2{
+
+	}
+	.ttl-ação-1{
+
+	}
+	.ttl-ação{
+
+	}
+	.ttl-açãoo{
+
+	}
+	.div-ação{
+
+	}
+	.div-caixa{
+
+	}
+	.txt-ação{
+
+	}
+	.txt-açãoo{
+		
+	}
+
+}
+
 
 .conteiner-contato {
 	height: 100vh;
@@ -291,5 +379,23 @@ hr{
     justify-content: center;
     align-items: center;
 
+}
+
+@media screen and (max-width: 450px){
+	.conteiner-contato {
+
+	}
+
+	.div-contato {
+
+	}
+
+	.ttl-contato {
+
+	}
+
+	.txt-contato {
+
+	}
 }
 
